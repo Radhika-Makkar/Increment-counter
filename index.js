@@ -8,7 +8,10 @@ counters.forEach((counter)=>{
        
         if(startingCount<targetCount){
             counter.innerHTML=`${startingCount+incr}`
-    setTimeout(updateCounter);
+    setTimeout(updateCounter,10);
+}
+else{
+    counter.innerHTML=targetCount;
 }
 
 }
