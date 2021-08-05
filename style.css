@@ -1,0 +1,35 @@
+.container{
+    display:flex;
+    height:100vh;
+    width:100vw;
+    justify-content: center;
+    align-items: center;
+}
+.inner-container{
+    display: flex;
+    width:900px;
+}
+
+body{
+    background-color:rgb(81, 81, 151);
+    overflow: hidden;
+}
+#first,#second,#third{
+margin:0 auto;
+}
+
+.counter{
+    color:rgb(206, 206, 40);
+    font-size:40px;
+    text-align: center;
+}
+h3{
+    color:white;
+    font-weight: lighter;
+    font-size: 2vw;
+}
+i{
+    font-size:5vw;
+    color:white;
+    margin-left:5vw;
+}
