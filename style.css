@@ -20,16 +20,17 @@ margin:0 auto;
 
 .counter{
     color:rgb(206, 206, 40);
-    font-size:40px;
+    font-size:3em;
     text-align: center;
 }
 h3{
     color:white;
     font-weight: lighter;
-    font-size: 2vw;
+    font-size: 2em;
+    text-align: center;
 }
 i{
-    font-size:5vw;
+    font-size:3em;
     color:white;
-    margin-left:5vw;
+    margin-left:40%;
 }
